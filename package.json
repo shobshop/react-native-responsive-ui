@@ -2,18 +2,17 @@
   "name": "react-native-responsive-ui",
   "version": "2.1.1",
   "description": "Responsive UIs for React Native",
-  "main": "dist/module/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/wcandillon/react-native-responsive-ui",
   "author": "William Candillon <wcandillon@gmail.com>",
   "license": "MIT",
   "private": false,
   "react-native": "src/index.ts",
-  "types": "dist/typescript/index.d.ts",
   "scripts": {
-    "prepare": "bob build",
+    "prepare": "tsc",
     "lint": "eslint src/**/* __tests__/**/*.tsx",
     "test": "jest",
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc"
   },
   "files": [
     "src",
