@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "react-native": "src/index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "prepare": "tsc",
     "lint": "eslint src/**/* __tests__/**/*.tsx",

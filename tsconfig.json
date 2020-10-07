@@ -18,7 +18,8 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "types": ["react", "react-native"],
-    "outDir": "dist/"
+    "outDir": "dist/",
+    "declaration": true
   },
   "include": ["src/index.ts"]
 }
