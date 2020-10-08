@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "lib": ["es6"],
-    "jsx": "react-native",
+    "jsx": "react",
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
@@ -19,7 +19,7 @@
     "allowSyntheticDefaultImports": true,
     "types": ["react", "react-native"],
     "outDir": "dist/",
-    "declaration": true
+    "declaration": true,
   },
   "include": ["src/index.ts"]
 }
