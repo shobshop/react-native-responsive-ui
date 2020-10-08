@@ -64,7 +64,7 @@ export default ({ children, ...props }: MediaQueryProps) => {
   const val = mediaQuery(props, width, height);
 
   if (val) {
-    return <>children</>;
+    return React.createElement(React.Fragment, null, children);
   }
   return null;
 };
